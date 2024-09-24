@@ -1,0 +1,29 @@
+Technologies Used
+1. React Components
+The application is built with modular React components to ensure the scalability and maintainability of the codebase.
+Each section of the app, including the form for creating and editing cards, the card display area, and the search functionality, was implemented as separate components to allow for reusability and a clean structure.
+2. Hooks
+React hooks were leveraged to manage the application’s state and side effects. Key hooks include:
+useState: For handling the local state of components such as form inputs and search filters.
+useEffect: For fetching data, such as retrieving business card details from a database, and handling updates when user actions trigger changes.
+3. Props
+Props were extensively used to pass data between components, ensuring that user inputs and card details were shared seamlessly across the app. This structure allowed for efficient communication between parent and child components.
+4. State Management
+Local state was managed using hooks to track key elements such as card details, form data, and search results. This enabled real-time updates as users interacted with the platform.
+State management was designed to ensure the UI responded immediately to user actions, providing a smooth and interactive experience.
+5. Form Handling
+The application includes forms for creating and editing business cards. These forms are dynamic and pre-filled with existing data when editing, making it easy for users to update their information.
+Controlled components were used to keep form inputs in sync with the React state, providing real-time validation and feedback to users.
+Key Features
+1. Create and Upload Business Cards
+Users can create new business cards by filling out a form with personal or business information. They can also upload a profile image to make their card visually engaging.
+2. Search Functionality
+The app includes a search feature that allows users to quickly find specific business cards based on criteria such as name, company, or role. This was implemented to enhance user experience in managing multiple cards.
+3. Edit Existing Cards
+Users can edit previously created cards, with the form pre-populated with the card's current details, allowing easy updates to their profiles.
+Conclusion
+This React-based project demonstrates a practical application of key front-end development concepts, including component architecture, hooks, props, and state management. It delivers a dynamic and responsive platform that meets the needs of users seeking a simple solution for creating and managing business cards online.
+
+created by  idan Arbeli 038078424
+050-4050514
+
